@@ -15,7 +15,7 @@
                             <div class="row">
                                 <div class="col-9 d-flex align-items-center">
                                     <div class="numbers">
-                                        <p class="card-category">Product</p>
+                                        <p class="card-category">Products</p>
                                         <h4 class="card-title">{{ $product }}</h4>
                                         <a class="nav-link text-muted p-0" href="{{ route('product.index') }}">
                                             View More <i class="la la-angle-right"></i>
