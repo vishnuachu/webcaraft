@@ -1,0 +1,44 @@
+.card-action {
+    padding: 30px 15px;
+    background-color: transparent;
+    line-height: 30px;
+    border-top: 1px solid #ebedf2 !important;
+    font-size: 14px;
+}
+.lv-nav-section .lv-navs li {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.lv-nav-section .lv-navs li a.nav-link {
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #aa2d52;
+    color: #aa2d52;
+}
+.lv-nav-section .lv-navs li a.nav-link.active {
+    color: #fff;
+    background-color: #aa2d52;
+}
+.nav-pills>li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.nav-pills>li>a {
+    padding: 0px 9px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #d1a54b;
+    color: #d1a54b;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #d1a54b;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #ffffff;
+}

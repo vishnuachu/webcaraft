@@ -1,0 +1,201 @@
+.dataTables_filter input[type="search"] {
+    font-size: 14px;
+    border: 1px solid #00000070;
+    background: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+table.dataTable thead th, table.dataTable tbody td
+{
+    border: 1px solid #00000017!important;
+}
+div#example_length, div#example_filter, div#example_info, div#example_paginate {
+    padding: 20px 0px;
+}
+span a.paginate_button {
+    background: linear-gradient(to bottom, #aa2c53 0%, #aa2c53 100%);
+    border-radius: 0px 0px 0px 0px !important;
+    color: #fff!important;
+}
+.prfl-pic {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    margin: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* transform: translate(0, 0) scale(1); */
+    direction: ltr;
+    left: 25px;
+    width: 180px;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+}
+td.icon-img img {
+    width: 50px;
+    height: 50px;
+}
+i.ace-icon.la.la-trash.bigger-120 {
+    color: #e90000;
+}
+
+span.form-require {
+    color: #f00;
+}
+select {
+    border:0;
+    background:transparent;
+    height:32px;
+    border:1px solid #d8d8d8;
+    width:350px;
+    -webkit-appearance: none;
+}
+img#backgroundimg {
+    width: 100%;
+    height: 250px;
+}
+.error {
+    color: #f00;
+}
+.list-view-banner {
+    margin-top: 200px;
+  }
+  .list-view-profile {
+    display: flex;
+}
+.list-view-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.list-view-title {
+    padding: 10px;
+    flex: 5;
+    color: #fff;
+}
+.list-view-title ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.list-view-title ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+}
+.lv-nav-section .lv-navs li {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.lv-nav-section .lv-navs li a.nav-link {
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #aa2d52;
+    color: #aa2d52;
+}
+.lv-nav-section .lv-navs li a.nav-link.active {
+    color: #fff;
+    background-color: #aa2d52;
+}
+.ace-thumbnails>li {
+    float: left;
+    overflow: hidden;
+    margin: 2px;
+    border: 2px solid #333;
+}
+.ace-thumbnails {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chosen-container {
+    width: 100%!important;
+}
+
+span span:last-child {
+    display: none;
+}
+
+.label-success {
+    background-color: #5cb85c;
+    color: #fffefe;
+    padding: 1px 5px;
+}
+.badge-danger,
+.badge-important,
+.badge.badge-danger,
+.badge.badge-important,
+.label-danger,
+.label-important,
+.label.label-danger,
+.label.label-important {
+    background-color: #D15B47
+}
+
+.badge-inverse,
+.badge.badge-inverse,
+.label-inverse,
+.label.label-inverse {
+    background-color: #333
+}
+
+.label-warning,
+.label.label-warning {
+    background-color: #F89406;
+    color: #fffefe;
+    padding: 1px 5px;
+}
+
+@media screen and (max-width: 550px){
+
+	.row-card-no-pd .col-md-3 {
+		border: none!important;
+	}
+}
+
+.notification-list--unread {
+    border-left: 2px solid #29B6F6;
+    background-color: #0000000f!important;
+}
+.notification-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 7px;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 6%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 6%);
+}
+.notification-list .notification-list_content .notification-list_img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.notification-list .notification-list_content .notification-list_detail p {
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+
+.notification-list .notification-list_feature-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 5px;
+    margin-left: 20px;
+}

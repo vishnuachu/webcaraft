@@ -1,0 +1,290 @@
+.error {
+    color: #f00;
+}
+.pa-btn-small {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+.pa-btn {
+    background: #a00c43;
+    color: #fff;
+    min-width: 160px;
+    height: auto;
+    border-radius: 5px;
+    text-transform: capitalize;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #a00c43;
+    transition: 0.3s;
+    display: inline-block;
+}
+.pa-btn:hover{
+    outline: none;
+    background: #fff;
+    color: #a00c43;
+}
+button.addressData {
+    border: none;
+    background: none;
+}
+.MainCategory {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 0px!important;
+}
+ul.dropdown-menu.inner.show {
+    max-height: 240px;
+}
+span.contact {
+    align-items: flex-start;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.lv-contact {
+    margin: 15px 0px;
+}
+span.fa.fa-star {
+    font-size: 18px;
+    color: #ffffffba;
+    font-weight: 100;
+}
+
+span.checked {
+    color: #ffd11b !important;
+    font-weight: 900!important;
+}
+.list-inline span.fa.fa-star {
+    color: #ffd11b !important;
+}
+.service-card .qb-card-title h5 {
+    text-transform: capitalize;
+}
+.service-card .qb-card.qb-lv-card {
+    width: 100%;
+}
+.qb-blog-review span.fa.fa-star {
+    font-size: 15px;
+    color: #443c3cba;
+    font-weight: 100;
+    width: 14px;
+}
+button.action-button {
+    background: none;
+    border: none;
+}
+.container, .container-fluid {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* #table_data .cart-table .table th {
+  color: #a00b43;
+  border: 0;
+} */
+#table_data .cart-table .table td {
+    border: 0;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #table_data .cart-table .table thead tr {
+    border-bottom: 3px solid #999;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: capitalize;
+      padding: 10px;
+      text-align: center;
+  }
+  #table_data .cart-table .table tr {
+    border: 1px solid #999;
+  }
+  #table_data .cart-table .table thead tr th, #table_data .cart-table .table tbody tr td {
+    border: 1px solid #999;
+  }
+
+
+.cart-table .cart-table .table td {
+    border: 0;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cart-table .cart-table .table thead tr {
+    border: 0;
+}
+.cart-table .cart-table .table tr {
+    border-bottom: 1px solid #a00b43;
+}
+.cart-table .cart-table .table th {
+    color: #a00b43;
+    border: 0;
+}
+
+
+.pull-right {
+    float: right!important;
+}
+span.error_class {
+    font-size: 12px;
+    color: #ffa3a3;
+    text-transform: capitalize;
+}
+@media screen and ( max-width: 400px ){
+
+    li.page-item {
+
+        display: none;
+    }
+
+    .page-item:first-child,
+    .page-item:nth-child( 2 ),
+    .page-item:nth-last-child( 2 ),
+    .page-item:last-child,
+    .page-item.active,
+    .page-item.disabled {
+
+        display: block;
+    }
+}
+
+
+input#savedAddress1.check-out-address {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.payment-content .radio-item {
+    background: #fff;
+    padding: 10px 15px 10px;
+    margin: 5px 0 0;
+}
+.payment-content .radio-item {
+    position: relative;
+    padding: 10px 14px 10px;
+    margin: 10px 0 0;
+    border-bottom: 1px solid #f0f4ff;
+}
+.payment-content .radio-item p.flt-rgt {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    margin: 0px 0 0 0;
+    padding-left: 20px;
+}
+.payment-content .radio-item label {
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.pull-right {
+    float: right!important;
+}
+header.sticky-top {
+    border-bottom: 1px solid #a8215117;
+}
+
+
+
+
+/* Confirmation Modal Start */
+
+.modal-confirm {
+    color: #636363;
+    width: 325px;
+    font-size: 14px;
+  }
+  .modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+  }
+  .modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+  }
+  .modal-confirm .form-control,
+  .modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+  }
+  .modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #a00b43;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  .modal-confirm .icon-box i {
+    font-size: 58px;
+    position: relative;
+    top: 3px;
+  }
+  .modal-confirm.modal-dialog {
+    margin-top: 80px;
+  }
+  .modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #82ce34;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+  }
+  .modal-confirm .btn:hover,
+  .modal-confirm .btn:focus {
+    background: #6fb32b;
+    outline: none;
+  }
+  .trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+  }
+  
+  /* Confirmation Modal End */
+
+
+
+  .col-lg-12.trm-cond p {
+    font-size: 14px;
+}
+.col-lg-12.trm-cond h6 {
+  font-weight: bold;
+  color: #000000b8;
+}

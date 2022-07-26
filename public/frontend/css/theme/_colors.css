@@ -1,0 +1,172 @@
+/* 
+    Based on clrs 
+*/
+
+/* Backgrounds */
+.bg-1 {
+  background-color: #a00b43 !important;
+}
+
+.bg-2 {
+  background-color: #f7f7f7 !important;
+}
+
+.bg-3 {
+  background-color: #f8f8f8 !important;
+}
+
+.bg-4 {
+  background-color: #8ce7ed !important;
+}
+
+.bg-5 {
+  background-color: #effeff !important;
+}
+.bg-6 {
+  background-color: #f5f9fc !important;
+}
+.bg-7 {
+  background-color: #f2f2f2 !important;
+}
+.bg-8 {
+  background-color: #f9f9f9 !important;
+}
+.bg-9 {
+  background-color: #e0e0e0 !important;
+}
+.bg-sp-1 {
+  background-color: #ff8d5d !important;
+}
+.bg-sp-2 {
+  background-color: #ed5a5a !important;
+}
+.bg-sp-3 {
+  background-color: #0fd380 !important;
+}
+.bg-sp-4 {
+  background-color: #f59c17 !important;
+}
+.bg-sp-5 {
+  background-color: #4761cc !important;
+}
+.bg-sp-6 {
+  background: #bd5012 !important;
+}
+.bg-sp-7 {
+  background: #d25fb8 !important;
+}
+.bg-sp-8 {
+  background: #cccc00 !important;
+}
+.bg-sp-9 {
+  background: #b377ff !important;
+}
+.bg-sp-10 {
+  background: #5b4699 !important;
+}
+.bg-sp-11 {
+  background: #00a7ed !important;
+}
+.bg-grey {
+  background: #f5f5f5;
+}
+
+/* Colors */
+
+/* Main Normal text , Paragraph colors */
+.text-dark {
+  color: #363636;
+}
+.text-primary {
+  color: #a00b43 !important;
+}
+.txt-1 {
+  color: #9b9b9b !important;
+}
+/*  */
+.txt-hov-1 {
+  color: #e22d89 !important;
+}
+.txt-2 {
+  color: #e0e0e0 !important;
+}
+
+.txt-hov-2 {
+  color: #6a6a6a !important;
+}
+.txt-sp-1 {
+  color: #ff8d5d !important;
+}
+.txt-red {
+  color: #ed5a5a !important;
+}
+.txt-green {
+  color: #58ab5e !important;
+}
+.txt-yellow {
+  color: #f59c17 !important;
+}
+.txt-blue {
+  color: #00a7ed;
+}
+.txt-3 {
+  color: #00788c !important;
+}
+
+/* Borders */
+
+.border-1 {
+  border: 1px solid;
+  border-color: #e0e0e0 !important;
+}
+
+.border-2 {
+  border: 1px solid;
+  border-color: #f2f2f2 !important;
+}
+
+.border-white {
+  border: 1px solid;
+  border-color: #ffffff !important;
+}
+.border-white-hover:hover {
+  border: 1px solid;
+  border-color: #ffffff !important;
+}
+.border-colored {
+  border: 1px solid;
+  border-color: #00788c !important;
+}
+.border-red {
+  border: 1px solid;
+  border-color: #ed5a5a !important;
+}
+.border-green {
+  border: 1px solid;
+  border-color: #0fd380 !important;
+}
+.border-dotted-right {
+  border-left: 3px dotted #dee2e6 !important;
+}
+
+/* Star Rating */
+
+.star-rating .rating-link {
+  color: #ff8d5d !important;
+}
+
+.txt-fb {
+  color: #4267b2 !important;
+}
+.txt-twitter {
+  color: #03a9f4 !important;
+}
+.txt-insta {
+  color: #c536a4 !important;
+}
+.txt-linkedin {
+  color: #006db2 !important;
+}
+.txt-youtube {
+  color: #f44336 !important;
+}
