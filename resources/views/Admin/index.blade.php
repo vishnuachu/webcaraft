@@ -22,7 +22,6 @@
                                         </a>
                                     </div>
                                 </div>
-
                                 <div class="col-3">
                                     <div class="icon-big text-center">
                                         <img class="cards-img" src="{{ asset('backend/img/business-card.png') }}" alt="">

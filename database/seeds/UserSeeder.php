@@ -25,6 +25,16 @@ class UserSeeder extends Seeder
             'password'          => bcrypt('password'),
         ])->assignRole('Super Admin');
 
+        $user = User::create([
+            'registerid'              => 'QB7213688',
+            'name'              => 'User',
+            'phone'              => '12345678',
+            'image'              => '/image/user_dp/image/user.jpg',
+            'approve'              => '1',
+            'email'             => 'user@webandcraft.com',
+            'password'          => bcrypt('password'),
+        ])->assignRole('User');
+
         $this->command->info('** Completed Seeding for Users **');
     }
 }
